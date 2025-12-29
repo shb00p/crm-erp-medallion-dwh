@@ -1,0 +1,20 @@
+# Ignore user-specific and high-churn files
+idea/workspace.xml
+idea/tasks.xml
+idea/dictionaries
+idea/vcs.xml
+idea/jsLibraryMappings.xml
+# Ignore sensitive or generated files
+idea/dataSources.*
+idea/sqlDataSources.xml
+idea/dynamic.xml
+idea/uiDesigner.xml
+# Ignore Gradle and libraries
+idea/gradle.xml
+idea/libraries/
+# Ignore plugin-specific files
+idea/mongoSettings.xml
+idea/httpRequests
+idea/caches/
+# Ignore IntelliJ output directories
+out/
