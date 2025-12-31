@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/c487c565-e889-4512-9ca7-8d7a59859184/console.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/bronze/initialise_bronze_tables.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/bronze/load_bronze_data.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/enable_local_infile.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
