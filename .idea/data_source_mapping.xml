@@ -5,5 +5,12 @@
     <file url="file://$PROJECT_DIR$/scripts/bronze/load_bronze_data.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/enable_local_infile.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/init_database.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/initialise_silver_tables.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/crm_cust_info_bronze_to_silver.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/crm_prd_info_bronze_to_silver.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/crm_sales_details_bronze_to_silver.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/erp_cust_az12_bronze_to_silver.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/erp_loc_a101_bronze_to_silver.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/erp_px_cat_g1v2_bronze_to_silver.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
   </component>
 </project>

@@ -5,6 +5,13 @@
     <file url="file://$PROJECT_DIR$/scripts/bronze/load_bronze_data.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/scripts/enable_local_infile.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/scripts/init_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/initialise_silver_tables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/crm_cust_info_bronze_to_silver.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/crm_prd_info_bronze_to_silver.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/crm_sales_details_bronze_to_silver.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/erp_cust_az12_bronze_to_silver.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/erp_loc_a101_bronze_to_silver.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/erp_px_cat_g1v2_bronze_to_silver.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
