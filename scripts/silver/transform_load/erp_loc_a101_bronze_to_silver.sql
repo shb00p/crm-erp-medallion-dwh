@@ -47,5 +47,10 @@ FROM cleaned c
 JOIN silver.crm_cust_info crm
   ON c.cid = crm.cst_key;
 
+SET @end_time = NOW(6);
+
+-- load time calculation
+SELECT TIMESTAMPDIFF(MICROSECOND, @start_time, @end_time)/1000 AS load_time_millis;
+
 -- sanity check
 SELECT * FROM silver.erp_loc_a101;

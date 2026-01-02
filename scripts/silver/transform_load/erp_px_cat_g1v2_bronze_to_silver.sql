@@ -16,6 +16,8 @@
 -- remove existing silver data
 TRUNCATE TABLE silver.erp_loc_a101;
 
+SET @start_time = NOW(6);
+
 -- clean bronze.erp_px_cat_g1v2 and insert into silver layer
 INSERT INTO silver.erp_px_cat_g1v2 (
     id,
@@ -46,6 +48,11 @@ SELECT
     'PX_CAT_G1V2.csv' AS source_file,
     CURRENT_TIMESTAMP AS load_ts
 FROM cleaned;
+
+SET @end_time = NOW(6);
+
+-- load time calculation
+SELECT TIMESTAMPDIFF(MICROSECOND, @start_time, @end_time)/1000 AS load_time_millis;
 
 -- sanity check
 SELECT DISTINCT * FROM silver.erp_px_cat_g1v2;

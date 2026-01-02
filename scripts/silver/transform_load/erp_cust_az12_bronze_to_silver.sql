@@ -16,6 +16,8 @@
 -- remove existing silver data
 TRUNCATE TABLE silver.erp_cust_az12;
 
+SET @start_time = NOW(6);
+
 -- clean bronze.erp_cust_az12 and insert into silver layer
 INSERT INTO silver.erp_cust_az12 (
     cid,
@@ -57,4 +59,10 @@ SELECT
     CURRENT_TIMESTAMP AS load_ts
 FROM cleaned;
 
+SET @end_time = NOW(6);
+
+-- load time calculation
+SELECT TIMESTAMPDIFF(MICROSECOND, @start_time, @end_time)/1000 AS load_time_millis;
+
+-- sanity check
 SELECT * FROM silver.erp_cust_az12;

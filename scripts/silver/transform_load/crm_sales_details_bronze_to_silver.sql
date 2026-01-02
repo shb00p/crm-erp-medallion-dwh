@@ -16,8 +16,9 @@
 -- remove existing silver data
 TRUNCATE TABLE silver.crm_sales_details;
 
--- clean bronze.crm_sales_details and insert into silver layer
+SET @start_time = NOW(6);
 
+-- clean bronze.crm_sales_details and insert into silver layer
 INSERT INTO silver.crm_sales_details (
     sls_ord_num,
     sls_prd_key,
@@ -100,6 +101,11 @@ SELECT
     'sales_details.csv' AS source_file,
     CURRENT_TIMESTAMP AS load_ts
 FROM cleaned;
+
+SET @end_time = NOW(6);
+
+-- load time calculation
+SELECT TIMESTAMPDIFF(MICROSECOND, @start_time, @end_time)/1000 AS load_time_millis;
 
 -- sanity check
 SELECT * FROM silver.crm_sales_details;

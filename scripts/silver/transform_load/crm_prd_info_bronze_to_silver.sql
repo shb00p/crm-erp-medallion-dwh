@@ -16,6 +16,8 @@
 -- remove existing silver data
 TRUNCATE TABLE silver.crm_prd_info;
 
+SET @start_time = NOW(6);
+
 -- clean bronze.crm_prd_info and insert into silver layer
 INSERT INTO silver.crm_prd_info (
     prd_id,
@@ -79,6 +81,11 @@ SELECT
     CURRENT_TIMESTAMP AS load_ts
 FROM deduplicated
 WHERE rn = 1;
+
+SET @end_time = NOW(6);
+
+-- load time calculation
+SELECT TIMESTAMPDIFF(MICROSECOND, @start_time, @end_time)/1000 AS load_time_millis;
 
 -- sanity check
 SELECT * FROM silver.crm_prd_info;
