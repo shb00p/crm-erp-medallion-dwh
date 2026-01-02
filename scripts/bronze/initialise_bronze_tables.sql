@@ -3,7 +3,7 @@
  Script Name : initialise_tables.sql
  Purpose     : Defines Bronze-layer table structures for CRM and ERP CSV sources
  Layer       : Bronze
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2025-12-29
 
  WARNING:

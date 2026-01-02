@@ -3,7 +3,7 @@
  Script Name : load_bronze_data.sql
  Purpose     : Load raw CSV files into bronze layer tables
  Layer       : Bronze
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2025-12-29
 
  NOTES:

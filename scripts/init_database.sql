@@ -3,7 +3,7 @@
  Script Name : init_database.sql
  Purpose     : Initialises MySQL Data Warehouse using Medallion Architecture.
                Creates databases for bronze, silver and gold layers.
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2025-12-29
 
  WARNING:
