@@ -10,7 +10,7 @@ This project demonstrates **data ingestion, cleansing, transformation, and busin
 
 This warehouse is designed with three logical layers:
 
-![medallion_architecture_image](\docs\diagrams\warehouse_architecture.png "Medallion Architecture")
+![medallion_architecture_image](/docs/diagrams/warehouse_architecture.png "Medallion Architecture")
 
 ### 🥉 Bronze Layer – Raw Ingestion
 - Stores raw CSV data from CRM and ERP systems
@@ -35,7 +35,7 @@ This warehouse is designed with three logical layers:
 ## 💼 Business Integration Model
 The key business objects are highlighted in this model
 
-![business_integration_model](\docs\diagrams\business_integration_model.png "Business Model")
+![business_integration_model](/docs/diagrams/business_integration_model.png "Business Model")
 
 ## 🗂️ Project Structure
 ```
@@ -128,9 +128,9 @@ gold/dim_view_gold_customers.sql
 gold/dim_view_gold_products.sql
 gold/fact_view_gold_sales.sql
 ```
-![warehouse_dataflow_diagram](\docs\diagrams\warehouse_dataflow_diagram.png "Dataflow Diagram")
+![warehouse_dataflow_diagram](/docs/diagrams/warehouse_dataflow_diagram.png "Dataflow Diagram")
 
-![star_schema_model](\docs\diagrams\star_schema_model.png "Star Schema")
+![star_schema_model](/docs/diagrams/star_schema_model.png "Star Schema")
 
 ## 📈 Room for Improvement
 - Add data quality checks for gold layer
