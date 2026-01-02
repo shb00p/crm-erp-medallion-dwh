@@ -2,9 +2,9 @@
 ===============================================================================
  Script Name : initialise_silver_tables.sql
  Purpose     : Defines Silver-layer table structures for CRM and ERP CSV sources
-               with added metadata columns and refine structure
+               with added metadata columns and refined structure
  Layer       : Silver
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2026-01-01
 
  WARNING:

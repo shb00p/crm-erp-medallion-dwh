@@ -4,7 +4,7 @@
  Purpose     : Load cleansed data from bronze layer to silver layer tables
                (silver.erp_px_cat_g1v2)
  Layer       : Silver
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2026-01-02
 
  NOTES:

@@ -4,7 +4,7 @@
  Purpose     : Load cleansed data from bronze layer to silver layer tables
                (silver.erp_loc_a101)
  Layer       : Silver
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2026-01-02
 
  NOTES:

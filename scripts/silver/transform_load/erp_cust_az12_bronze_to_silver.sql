@@ -4,7 +4,7 @@
  Purpose     : Load cleansed data from bronze layer to silver layer tables
                (silver.erp_cust_az12)
  Layer       : Silver
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2026-01-01
 
  NOTES:

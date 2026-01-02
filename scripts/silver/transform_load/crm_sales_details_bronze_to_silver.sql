@@ -4,7 +4,7 @@
  Purpose     : Load cleansed data from bronze layer to silver layer tables
                (silver.crm_sales_details)
  Layer       : Silver
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2026-01-01
 
  NOTES:
