@@ -1,16 +1,17 @@
 /*
 ===============================================================================
- Script Name : view_gold_customer.sql
- Purpose     : Create view to create table containing Customer Information
+ Script Name : dim_view_gold_products.sql
+ Purpose     : Create view (dimension) to create table containing Product Information
  Layer       : Gold
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2026-01-02
 
- NOTES:
+ WARNING:
  - Script is destructive, views are dropped before reconstruction
 ===============================================================================
 */
 
+-- drop existing view
 DROP VIEW IF EXISTS gold.dim_product_information;
 
 CREATE VIEW gold.dim_product_information AS
@@ -32,5 +33,6 @@ CREATE VIEW gold.dim_product_information AS
         ON pi.cat_id = px.id
     WHERE pi.prd_end_dt IS NULL; -- filter out historical data
 
+-- sanity check
 SELECT * FROM gold.dim_product_information;
 

@@ -4,9 +4,9 @@
     <file url="file://$PROJECT_DIR$/scripts/bronze/initialise_bronze_tables.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/bronze/load_bronze_data.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/enable_local_infile.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
-    <file url="file://$PROJECT_DIR$/scripts/gold/view_gold_customer.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
-    <file url="file://$PROJECT_DIR$/scripts/gold/view_gold_products.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
-    <file url="file://$PROJECT_DIR$/scripts/gold/view_gold_sales.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/gold/dim_view_gold_customer.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/gold/dim_view_gold_products.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
+    <file url="file://$PROJECT_DIR$/scripts/gold/fact_view_gold_sales.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/init_database.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/silver/initialise_silver_tables.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />
     <file url="file://$PROJECT_DIR$/scripts/silver/transform_load/crm_cust_info_bronze_to_silver.sql" value="c487c565-e889-4512-9ca7-8d7a59859184" />

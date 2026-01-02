@@ -1,16 +1,17 @@
 /*
 ===============================================================================
- Script Name : view_gold_customer.sql
+ Script Name : dim_view_gold_customers.sql
  Purpose     : Create view to create table containing Customer Information
  Layer       : Gold
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2026-01-02
 
- NOTES:
+ WARNING:
  - Script is destructive, views are dropped before reconstruction
 ===============================================================================
 */
 
+-- drop existing view
 DROP VIEW IF EXISTS gold.dim_customer_information;
 
 CREATE VIEW gold.dim_customer_information AS
@@ -35,4 +36,5 @@ CREATE VIEW gold.dim_customer_information AS
     LEFT JOIN silver.erp_cust_az12 AS caz
         ON ci.cst_key = caz.cid;
 
+-- sanity check
 SELECT * FROM gold.dim_customer_information;

@@ -1,16 +1,17 @@
 /*
 ===============================================================================
- Script Name : view_gold_sales.sql
- Purpose     : Create view to create table containing Customer Information
+ Script Name : fact_view_gold_sales.sql
+ Purpose     : Create view to create table containing Sales Information
  Layer       : Gold
- Author      : Newbie
+ Author      : Shashi Kunigiri
  Created On  : 2026-01-02
 
- NOTES:
+ WARNING:
  - Script is destructive, views are dropped before reconstruction
 ===============================================================================
 */
 
+-- drop existing view
 DROP VIEW IF EXISTS gold.fact_sales_information;
 
 CREATE VIEW gold.fact_sales_information AS
@@ -31,4 +32,5 @@ CREATE VIEW gold.fact_sales_information AS
     LEFT JOIN gold.dim_customer_information AS ci
         ON sd.sls_cust_id = ci.customer_id;
 
+-- sanity check
 SELECT * FROM gold.fact_sales_information;
