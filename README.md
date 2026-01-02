@@ -10,6 +10,8 @@ This project demonstrates **data ingestion, cleansing, transformation, and busin
 
 This warehouse is designed with three logical layers:
 
+![medallion_architecture_image](docs\diagrams\warehouse_architecture.png "Medallion Architecture")
+
 ### 🥉 Bronze Layer – Raw Ingestion
 - Stores raw CSV data from CRM and ERP systems
 - Minimal transformation
@@ -29,8 +31,11 @@ This warehouse is designed with three logical layers:
 - Optimized for analytics and reporting
 - Implemented using SQL views
 
-![medallion_architecture_image]("docs\diagrams\warehouse_architecture.png" "Medallion Architecture")
 ---
+## 💼 Business Integration Model
+The key business objects are highlighted in this model
+
+![business_integration_model](docs\diagrams\business_integration_model.png "Business Model")
 
 ## 🗂️ Project Structure
 ```
@@ -123,6 +128,16 @@ gold/dim_view_gold_customers.sql
 gold/dim_view_gold_products.sql
 gold/fact_view_gold_sales.sql
 ```
+![warehouse_dataflow_diagram](docs\diagrams\warehouse_dataflow_diagram.png "Dataflow Diagram")
+
+![star_schema_model](docs\diagrams\star_schema_model.png "Star Schema")
+
+## 📈 Room for Improvement
+- Add data quality checks for gold layer
+
+- Create a single orchestrator script for bronze, silver and gold layers for ease of use
+
+- Add a naming convetions markdown file to docs folder
 
 ## 📄 License
 
@@ -137,11 +152,11 @@ This project was inspired by the 30 hour SQL course by Data With Baraa (Baraa Kh
 
 [YouTube Tutorial](https://www.youtube.com/watch?v=SSKVgrwhzus)
 
-The implementation, schema design, SQL logic, and transformations were independently developed and catered for MySQL by me.
+The implementation, schema design, SQL logic, transformations, and diagrams were independently developed and catered for MySQL by me.
 
 ## 👤 Author
 
-Built by Bob Supanya
+Built by Shashi Kunigiri
 
 For learning, experimentation, and portfolio demonstration.
 
