@@ -3,7 +3,8 @@
  Script Name : enable_local_infile.sql
  Purpose     : Checks and enables the MySQL local_infile setting required for
                loading CSV files using LOAD DATA LOCAL INFILE.
- Author      : Newbie
+               (required for execution of load_bronze_data.sql)
+ Author      : Shashi Kunigiri
  Created On  : 2025-12-29
 
  WARNING:
