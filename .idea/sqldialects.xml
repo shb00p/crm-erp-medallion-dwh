@@ -4,7 +4,7 @@
     <file url="file://$PROJECT_DIR$/scripts/bronze/initialise_bronze_tables.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/scripts/bronze/load_bronze_data.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/scripts/enable_local_infile.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/scripts/gold/dim_view_gold_customer.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/scripts/gold/dim_view_gold_customers.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/scripts/gold/dim_view_gold_products.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/scripts/gold/fact_view_gold_sales.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/scripts/init_database.sql" dialect="MySQL" />
